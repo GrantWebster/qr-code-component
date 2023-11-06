@@ -1,0 +1,62 @@
+/* Reset Border Box */
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.body {
+  margin: 0;
+}
+
+.page-content {
+  background-color: hsl(212, 45%, 89%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.component-container {
+  width: 85.33%;
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .component-container {
+    max-width: 20rem;
+  }
+}
+
+h2 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.3rem;
+  padding: 0 1.1875rem;
+  color: hsl(218, 44%, 22%);
+}
+
+.component-content > p {
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  padding: 0 1.1875rem;
+  color: hsl(220, 15%, 55%);
+}
+
+.qr-code-img {
+  border-radius: 0.8rem;
+}
+
+.bold {
+  font-weight: 700;
+}
