@@ -19,8 +19,8 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/GrantWebster/qr-code-component)
-- Live Site URL: [Add live site URL here]()
+- Solution URL: (https://github.com/GrantWebster/qr-code-component)
+- Live Site URL: (https://grantwebster.github.io/qr-code-component/)
 
 ## My process
 
